@@ -28,6 +28,7 @@
     "react-dom": "^0.14.7",
     "react-gmaps": "^1.4.2",
     "sequelize": "^3.19.3",
+    "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
     "yelp": "^1.0.1"
   }
