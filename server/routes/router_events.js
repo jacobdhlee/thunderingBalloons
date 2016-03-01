@@ -3,17 +3,18 @@
 //////////////////
 
 // utility functions
-var utils = require('../utils/utils');
+const utils = require('../utils/utils');
 
 // create express router 
-var express = require('express');
-var eventsRouter = express.Router();
+const express = require('express');
+const eventsRouter = express.Router();
 
 // db helpers
-var sequelize = require('../db/config/sequelize_connection');
-var User = require('../db/models/user');
-var Event = require('../db/models/event');
-var Invitee = require('../db/models/invitee');
+const db = require('../db/db.js');
+const sequelize = db.sequelize;
+const User = db.User;
+const Event = db.Event;
+const Invitee = db.Invitee;
 
 
 ////////////////////

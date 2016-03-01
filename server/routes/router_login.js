@@ -3,16 +3,17 @@
 //////////////////
 
 // dependencies
-var bcrypt = require('bcrypt');
-var utils = require('../utils/utils');
+const bcrypt = require('bcrypt');
+const utils = require('../utils/utils');
 
 // create express router 
-var express = require('express');
-var loginRouter = express.Router();
+const express = require('express');
+const loginRouter = express.Router();
 
 // db helpers
-var sequelize = require('../db/config/sequelize_connection');
-var User = require('../db/models/user');
+const db = require('../db/db.js');
+const sequelize = db.sequelize;
+const User = db.User;
 
 
 ////////////////////
