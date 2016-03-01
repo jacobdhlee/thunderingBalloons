@@ -3,14 +3,14 @@
 ///////////////////
 
 // utility functions
-var utils = require('../utils/utils');
+const utils = require('../utils/utils');
 
 // create express router 
-var express = require('express');
-var inviteRouter = express.Router(); 
+const express = require('express');
+const inviteRouter = express.Router(); 
 
 // db helpers
-var sequelize = require('../db/config/sequelize_connection');
+const sequelize = require('../db/db.js').sequelize;
 
 
 ////////////////////
