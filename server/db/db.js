@@ -55,4 +55,5 @@ module.exports = {
   Event,
   Invitee,
   sequelize,
+  Sequelize,
 }
